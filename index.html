@@ -9,19 +9,21 @@
 	<script>
 
 	var triangle = '';
+	var star = '*';
 	var size = prompt('введите число');
 
-	for(var i=1; i<=size; i++)
+	for(var i=0; i<size; i++)
 	{
-  		triangle = triangle + '*';
- 		console.log(triangle);
+		triangle += star + '\n';
+  		star += '*';
 	}
+	alert(triangle);
 	</script>
 
 	<p>Вам нужно запросить у пользователя число, которое будет высотой вершины прямоугольного треугольника. <br>
 	 Весь треугольник должен быть одной строкой. Например, alert(triangle) выведет: <br>
 
-* <br>
+* <br>gjhfj
 
 ** <br>
 
